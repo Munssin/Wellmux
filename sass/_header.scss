@@ -255,7 +255,13 @@ header{
     }
   }
 
-
+  @media(max-width: 1366px){
+      #slider{
+        .flickity-page-dots{
+          bottom: 32px;
+        }
+      }
+    }
 
   @media(max-width: 1024px){
       #slider{

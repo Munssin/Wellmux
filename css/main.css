@@ -178,6 +178,9 @@ header {
       background-size: contain;
       background-repeat: no-repeat;
       height: 470px; }
+  @media (max-width: 1366px) {
+    header #slider .flickity-page-dots {
+      bottom: 32px; } }
   @media (max-width: 1024px) {
     header #slider {
       margin-top: 50px; }
