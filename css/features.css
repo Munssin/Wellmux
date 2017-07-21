@@ -1,0 +1,63 @@
+#features {
+  background-color: #fff;
+  padding-bottom: 165px; }
+  #features h2 {
+    font-size: 32px;
+    color: #010101;
+    text-align: center;
+    width: 100%;
+    margin-top: 120px; }
+  #features p {
+    font-size: 20px;
+    color: #797c81;
+    text-align: center;
+    margin-top: 25px; }
+  #features .features-items {
+    margin-top: 95px;
+    padding-left: 60px; }
+    #features .features-items h3 {
+      font-size: 22px;
+      color: #010101;
+      text-align: left; }
+    #features .features-items p {
+      font-size: 16px;
+      color: #ababab;
+      text-align: left; }
+    #features .features-items .features-item {
+      max-width: 220px; }
+    @media (max-width: 569px) {
+      #features .features-items .features-item {
+        margin: 0 auto; } }
+    #features .features-items .features-item-down {
+      max-width: 220px;
+      margin-top: 85px; }
+    @media (max-width: 992px) {
+      #features .features-items .features-item-down {
+        margin-top: 0; } }
+    @media (max-width: 569px) {
+      #features .features-items .features-item-down {
+        margin: 0 auto; } }
+    #features .features-items .features-items1:before {
+      content: url(../img/features-items1.png);
+      position: absolute;
+      left: -50px; }
+    #features .features-items .features-items2:before {
+      content: url(../img/features-items2.png);
+      position: absolute;
+      left: -50px; }
+    #features .features-items .features-items3:before {
+      content: url(../img/features-items3.png);
+      position: absolute;
+      left: -50px; }
+    #features .features-items .features-items4:before {
+      content: url(../img/features-items4.png);
+      position: absolute;
+      left: -50px; }
+    #features .features-items .features-items5:before {
+      content: url(../img/features-items5.png);
+      position: absolute;
+      left: -50px; }
+    #features .features-items .features-items6:before {
+      content: url(../img/features-items6.png);
+      position: absolute;
+      left: -50px; }

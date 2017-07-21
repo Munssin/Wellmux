@@ -1,0 +1,313 @@
+
+// header
+header{
+  height: 100vh;
+  position: relative;
+  background-color: #fcdb00;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // nav
+  nav{
+    // height: 130px;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+    a{
+      color: #010101;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'PT Sans', sans-serif;
+      img{
+        padding-right: 10px;
+      }
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    a:active{
+      text-decoration: none;
+    }
+    ul{
+      list-style: none;
+      li{
+        margin-right: 50px;
+        display: inline-block;
+        a{
+          font-size: 22px;
+          color: #010101;
+          font-weight: bold;
+          font-family: 'PT Sans', sans-serif;
+          text-decoration: none;
+          transition: all 0.3s;
+        }
+        a:hover{
+
+        }
+      }
+    }
+    .mob_menu{
+      display: none;
+    }
+    @media (max-width: 569px) {
+        .dest-menu{
+          display: none;
+        }
+          .mob_menu{
+            display: block;
+            .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 99;
+            top: 0;
+            right: 0;
+            background-color: #000;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 30px 8px 8px 8px;
+            text-decoration: none;
+            font-size: 32px;
+            color: #fff;
+            text-align: center;
+            display: block;
+            transition: 0.3s;
+            font-family: 'PT Sans', sans-serif;
+            font-weight: bold;
+        }
+
+        .sidenav a:hover, .offcanvas a:focus{
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+      }
+    }
+  }// nav
+  @media (max-width: 569px) {
+    nav{
+      margin-top: 30px;
+      .header-logo{
+        a{
+          font-size: 24px;
+          img{
+            height: 30px;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #slider{
+    margin-top: 140px;
+    .carousel {
+      // margin: 0 60px; /* space for prev/next buttons */
+      padding-bottom: 40px;
+    }
+    .carousel-cell {
+      width: 100%;
+      height: 500px;
+      margin-right: 10px;
+      color: #fff;
+      font-size: 12px;
+      padding-top: 15px;
+    }
+    /* smaller, dark, rounded square */
+  .flickity-prev-next-button{
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    svg{
+      opacity: 0;
+    }
+  }
+    .flickity-page-dots{
+      bottom: 0;
+      .dot{
+        background: #fff;
+        height: 14px;
+        width: 14px;
+      }
+    }
+    .previous{
+
+    }
+    .next{
+
+    }
+    .main-info{
+      h2{
+        font-size: 32px;
+        color: #010101;
+        margin-bottom: 22px;
+      }
+      p{
+        font-size: 20px;
+        color: #313841;
+        max-width: 350px;
+      }
+      .sa{
+        color: #807749;
+        font-size: 16px;
+        margin-top: 24px;
+        max-width: 420px;
+      }
+      .plat{
+        margin-top: 40px;
+        .apple{
+          padding-right: 35px;
+          cursor: pointer;
+          transition: 0.3s ease all;
+        }
+        .apple:hover{
+          transform: scale(1.2);
+        }
+        .andr{
+          padding-right: 35px;
+          cursor: pointer;
+          transition: 0.3s ease all;
+        }
+        .andr:hover{
+          transform: scale(1.2);
+        }
+        .wind{
+          cursor: pointer;
+          transition: 0.3s ease all;
+        }
+        .wind:hover{
+          transform: scale(1.2);
+        }
+        .downl{
+          text-transform: uppercase;
+          display: none;
+          cursor: pointer;
+          a{
+            font-size: 16px;
+            color: #2d2d2d;
+            border: 2px solid #000;
+            border-radius: 4px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 75px;
+            padding-left: 30px;
+            position: relative;
+            transition: 0.3s ease all;
+            .downln{
+                position: absolute;
+                right: 25px;
+                display: block;
+                top: 18px;
+            }
+            .downlnh{
+              display: none;
+              position: absolute;
+              right: 25px;
+              top: 18px;
+            }
+          }
+          // a:after{
+          //   content: url(../img/downl.png);
+          //   position: absolute;
+          //   right: 25px;
+          // }
+          a:hover{
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+          }
+          a:hover .downln{
+            display: none;
+          }
+          a:hover .downlnh{
+            display: block;
+          }
+        }
+      }
+    }
+    .main-foto{
+      background-image: url(../img/_ipad1.png);
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 470px;
+    }
+  }
+
+
+
+  @media(max-width: 1024px){
+      #slider{
+        margin-top: 50px;
+        .carousel-cell{
+          font-size: 40px;
+          .main-info{
+            h2{
+              text-align: center;
+            }
+            p{
+              text-align: center;
+              margin: 0 auto;
+            }
+            .plat{
+              padding-left: 35%;
+            }
+          }
+          .main-foto{
+            display: none;
+          }
+        }
+      }
+    }
+    @media(max-width: 569px){
+        #slider{
+          margin-top: 0;
+          .flickity-page-dots{
+            bottom: 160px;
+          }
+          .carousel-cell{
+            font-size: 40px;
+            .main-info{
+              h2{
+                font-size: 24px;
+              }
+              p{
+                font-size: 18px;
+              }
+              .sa{
+                font-size: 14px;
+              }
+              .plat{
+                text-align: center;
+                padding-left: 0;
+                margin-top: 20px;
+              }
+            }
+            .main-foto{
+              display: none;
+            }
+          }
+        }
+      }
+  }

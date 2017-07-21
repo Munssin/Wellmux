@@ -1,0 +1,115 @@
+footer{
+  background-color: #010101;
+  h2{
+    font-size: 32px;
+    color: #fcdb00;
+    text-align: center;
+    width: 100%;
+    margin-top: 95px;
+  }
+  @media (max-width: 569px) {
+      h2{
+        margin-top: 40px;
+      }
+  }
+  p{
+    font-size: 20px;
+    color: #797c81;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .search{
+    margin-top: 40px;
+    form{
+      display: flex;
+      justify-content: center;
+      #search{
+        width: 580px;
+        height: 50px;
+        margin-right: 20px;
+        border: 0;
+        border-radius: 4px;
+      }
+      #submit{
+        height: 50px;
+        width: 125px;
+        background-color: #fcdb00;
+        border: 0;
+        border-radius: 4px;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+      .search{
+        padding: 0 10px;
+      }
+  }
+  @media (max-width: 569px) {
+      .search{
+        padding: 0 5px;
+      }
+  }
+  .soc{
+    margin-top: 78px;
+    margin-bottom: 130px;
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      li{
+        padding-right: 32px;
+        a{
+          img{
+            transition: 0.3s ease all;
+          }
+          img:hover{
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 569px) {
+      .soc{
+        margin-top: 40px;
+        margin-bottom: 60px;
+      }
+  }
+  .footer-nav{
+    // display: flex;
+    .adr{
+      max-width: 220px;
+      margin: 0 -40px;
+      font-family: 'PT Sans', sans-serif;
+    }
+    ul{
+      list-style: none;
+      margin-bottom: 130px;
+      li{
+        font-size: 16px;
+        color: #fff;
+        font-family: 'PT Sans', sans-serif;
+        a{
+          color: #fff;
+          font-family: 'PT Sans', sans-serif;
+        }
+      }
+    }
+  }
+  @media (max-width: 569px) {
+      .footer-nav{
+        .foot-menu{
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 40px;
+          padding-left: 0;
+          li{
+            padding-bottom: 10px;
+            a{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+  }
+}

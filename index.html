@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="libs/flickity/css/flickity.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- header -->
+  <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav>
+              <div class="header-logo">
+                <a href="#"><img src="img/_nav-logo.png" alt="">tinyone</a>
+              </div>
+              <ul class="dest-menu">
+                <li><a href="#" id="1">Feature</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+              <!-- <div class="mob_menu">
+                <ul>
+                  <li><a href="#" id="1">Featurem</a></li>
+                  <li><a href="#">Supportm</a></li>
+                  <li><a href="#">Blogm</a></li>
+                </ul>
+              </div> -->
+              <div class="mob_menu">
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#" id="m1">Feature</a>
+                  <a href="#">Support</a>
+                  <a href="#">Blog</a>
+                </div>
+                <div id="main">
+                  <span style="font-size:30px;cursor:pointer; color: #000" onclick="openNav()">&#9776;</span>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div id="slider">
+            <div class="carousel" data-flickity>
+              <div class="carousel-cell">
+                <div class="col-md-7 col-sm-12">
+                  <div class="main-info">
+                    <h2>Inspire your inspiration</h2>
+                    <p>
+                      Simple to use for your app, products showcase and your inspiration
+                    </p>
+                      <p class="sa">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem
+                        quis venenatis. Proin viverra risus a eros volutpat tempor.
+                         In quis arcu et eros porta lobortis sit </p>
+                         <div class="plat">
+                           <img class="apple" src="img/aple.png" alt="">
+                           <img class="andr" src="img/and.png" alt="">
+                           <img class="wind" src="img/win.png" alt="">
+                           <div class="downl">
+                             <a href="#">download
+                                <img class="downln" src="img/downl.png" alt="">
+                                <img class="downlnh" src="img/downl-hov.png" alt="">
+                             </a>
+                           </div>
+                         </div>
+                  </div>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <div class="main-foto">
+                    <!-- <img src="/img/_ipad1.png" alt=""> -->
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-cell">
+                <div class="col-md-7">
+                  <div class="main-info">
+                    <h2>Inspire your inspiration</h2>
+                    <p>
+                      Simple to use for your app, products showcase and your inspiration
+                    </p>
+                      <p class="sa">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem
+                        quis venenatis. Proin viverra risus a eros volutpat tempor.
+                         In quis arcu et eros porta lobortis sit </p>
+                         <div class="plat">
+                           <img class="apple" src="img/aple.png" alt="">
+                           <img class="andr" src="img/and.png" alt="">
+                           <img class="wind" src="img/win.png" alt="">
+                           <div class="downl">
+                             <a href="#">download
+                                <img class="downln" src="img/downl.png" alt="">
+                                <img class="downlnh" src="img/downl-hov.png" alt="">
+                             </a>
+                           </div>
+                         </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="main-foto">
+                    <!-- <img src="/img/_ipad1.png" alt=""> -->
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-cell">
+                <div class="col-md-7">
+                  <div class="main-info">
+                    <h2>Inspire your inspiration</h2>
+                    <p>
+                      Simple to use for your app, products showcase and your inspiration
+                    </p>
+                      <p class="sa">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem
+                        quis venenatis. Proin viverra risus a eros volutpat tempor.
+                         In quis arcu et eros porta lobortis sit </p>
+                         <div class="plat">
+                           <img class="os apple" src="img/aple.png" alt="">
+                           <img class="os andr" src="img/and.png" alt="">
+                           <img class="os wind" src="img/win.png" alt="">
+                           <div class="downl">
+                             <a href="#">download
+                                <img class="downln" src="img/downl.png" alt="">
+                                <img class="downlnh" src="img/downl-hov.png" alt="">
+                             </a>
+                           </div>
+                         </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="main-foto">
+                    <!-- <img src="/img/_ipad1.png" alt=""> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row -->
+  </header>
+  <!-- header -->
+
+  <!-- section -->
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <h2>Tinyone features</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+          <div class="features-items">
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-items1 features-item">
+                <h3>Fully Responsive</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-items2 features-item">
+                <h3>Fully Layered PSD</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-items3 features-item">
+                <h3>Font Awesome Icons</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-items4 features-item-down">
+                <h3>HTML5 & CSS3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-items5 features-item-down">
+                <h3>Email Template</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="features-items6 features-item-down">
+                <h3>Free to download</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- section -->
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <h2>Tinyone features</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        <div class="search">
+          <form action="">
+            <input type="text" id="search" name="" placeholder="Enter your email to update">
+            <input type="submit" id="submit" value="submit">
+          </form>
+        </div>
+        <div class="soc">
+          <ul>
+            <li><a href="#"><img src="img/face.png" alt=""></a></li>
+            <li><a href="#"><img src="img/tw.png" alt=""></a></li>
+            <li><a href="#"><img src="img/goo.png" alt=""></a></li>
+            <li><a href="#"><img src="img/p.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <div class="col-md-4 col-sm-3 col-xs-12">
+            <ul class="adr foot-menu">
+              <li>HALOVIETNAM LTD
+                  66, Dang Van ngu, Dong Da
+                  Hanoi, Vietnam</li>
+              <li>contact@halovietnam.com</li>
+              <li>+844 35149182</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-12">
+            <ul class="foot-menu">
+              <li><a href="#">Examples</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">License</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-12">
+            <ul class="foot-menu">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-12">
+            <ul class="foot-menu">
+              <li><a href="#">Download</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Documents</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <ul class="foot-menu">
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forums</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/flickity/js/index.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
